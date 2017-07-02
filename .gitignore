@@ -40,3 +40,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# My Files
+/src/assets/angular-2-from-theory-to-practice-v1.0.1.pdf
