@@ -6,7 +6,10 @@ import { Joke } from '../joke';
   templateUrl: './joke-form.component.html',
   styleUrls: ['./joke-form.component.css'],
   encapsulation: ViewEncapsulation.Emulated
+  // encapsulation: ViewEncapsulation.Native
+  // encapsulation: ViewEncapsulation.None
 })
+
 export class JokeFormComponent implements OnInit {
   @Output() jokeCreated = new EventEmitter<Joke>();
 
